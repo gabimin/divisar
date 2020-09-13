@@ -1,0 +1,136 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  background-color: #e8ded2;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 0 auto 0 auto;
+  font-family: 'Indie Flower', cursive;
+  /*color: #056676;*/
+  color: #11999e;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  color: #11999e;
+  font-weight: lighter;
+  padding: 0;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #11999e;
+  font-size: 1.75rem;
+  font-weight:100;
+}
+
+a {
+  color: #40514E;
+  text-decoration: none;
+  margin: 10px 20px;
+}
+
+a:hover {
+  color: #e8ded2;
+  margin: 10px 20px;
+}
+
+hr {
+  width: 4%;
+  border-top: 6px dotted #EAF6F6;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+
+.top-container {
+  background-color: #e8ded2;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+margin: 100px auto 100px auto;
+}
+
+.bottom-container {
+background-color: #11999e;
+padding: 40px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+
+}
+
+.intro {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 200px;
+}
+
+.image-skill {
+  width: 15%;
+  float:left;
+  margin-right: 30px;
+}
+
+.image-skill2 {
+  width: 15%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #E8DED2;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 200;
+   padding: 15px;
+   background-color: #11999e;
+   -webkit-box-shadow: 1px 1px 20px 0 #E8DED2;
+   -moz-box-shadow: 1px 1px 20px 0 #E8DED2;
+   box-shadow: 1px 1px 20px 0 #E8DED2;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.copyright {
+  color: #E8DED2;
+  font-size: 1.2rem;
+}
