@@ -5,7 +5,7 @@ body {
   font-family: 'Josefin Slab', serif;
   font-size: 1.5rem;
   font-weight: 400;
-  background-color: #e8ded2;
+  background-color: #b9f2ff;
 }
 
 h1 {
@@ -58,7 +58,7 @@ p {
 
 
 .top-container {
-  background-color: #e8ded2;
+  background-color: #b9f2ff;
   position: relative;
   padding-top: 100px;
 }
