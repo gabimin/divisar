@@ -1,10 +1,10 @@
 body {
-  color: #40514E;
+  color: #696969;
   margin: 0;
   text-align: center;
   font-family: 'Josefin Slab', serif;
   font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: 600;
   background-color: #b9f2ff;
 }
 
@@ -19,8 +19,8 @@ h1 {
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
-  color: #11999e;
-  font-weight: lighter;
+  color: #656565;
+  font-weight: 500;
   padding: 0;
 
 }
@@ -29,7 +29,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   color: #11999e;
   font-size: 1.75rem;
-  font-weight:100;
+  font-weight:500;
 }
 
 a {
@@ -60,7 +60,7 @@ p {
 .top-container {
   background-color: #b9f2ff;
   position: relative;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 
 .middle-container {
@@ -76,8 +76,6 @@ padding: 40px 0 20px;
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
-
-
 }
 
 .intro {
@@ -133,4 +131,5 @@ padding: 40px 0 20px;
 .copyright {
   color: #E8DED2;
   font-size: 1.2rem;
+  padding-top: 1rem;
 }
