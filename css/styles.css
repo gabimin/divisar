@@ -21,7 +21,7 @@ h2 {
   font-size: 2rem;
   color: #656565;
   font-weight: 500;
-  padding: 0;
+  margin-top: 0;
 
 }
 
@@ -87,13 +87,13 @@ padding: 40px 0 20px;
 .top-cloud {
   position: absolute;
   right: 300px;
-  top: 50px;
+  top: 150px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 250px;
-  bottom: 200px;
+  bottom: 250px;
 }
 
 .image-skill {
