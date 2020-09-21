@@ -47,7 +47,7 @@ h2 {
 
 .bio-container {
   background-color: white;
-  padding: 7% 15%;
+  padding: 7%;
   }
 
 h3 {
@@ -59,7 +59,7 @@ h3 {
 
 .skills-container {
   background-color: #E4F6F8;
-  padding: 5%;
+  padding: 5% 0 2%;
   }
 
 .skill-row {
@@ -83,12 +83,12 @@ h3 {
 /* Contact Section */
 
 .contact-container {
-  padding: 7%;
+  padding: 5% 0 10%;
 }
 
 .contact-title {
   margin: 0;
-padding-bottom: 5%;
+  padding-bottom: 5%;
 }
 
 .btn {
