@@ -27,6 +27,7 @@
   color: #11999e;
   font-family: 'Indie Flower', cursive;
   font-size: 8rem;
+  max-width: 80%;
 }
 
 /* Bio Section */
@@ -112,5 +113,5 @@
   background-color: #11999e;
   color: #E4F6F8;
   padding: 3%;
-  text-align: center;  
+  text-align: center;
 }
