@@ -26,8 +26,9 @@
 #mignone-top {
   color: #11999e;
   font-family: 'Indie Flower', cursive;
-  font-size: 8rem;
+  font-size: 5rem;
   max-width: 80%;
+  text-align:center;
 }
 
 /* Bio Section */
