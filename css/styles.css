@@ -1,126 +1,116 @@
-body {
-  color: #696B6F;
-  margin: 0;
-  text-align: center;
-  font-family: 'Josefin Slab', serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 2;
-}
-
 /* Top Section */
-
-.top-container {
-  padding: 7%;
+.presentation {
   background-color: #E4F6F8;
+  font-size: 1rem;
+  padding: 3% 0 7%;
+  text-align: center;
 }
 
-
-h1 {
-  color: #11999e;
-  font-family: 'Indie Flower', cursive;
+.top {
   font-size: 6rem;
   line-height: 1.2;
-  margin: 0 auto;
-}
-
-h2 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.75rem;
-  font-weight: normal;
-  margin-top: 0;
 }
 
 .top-cloud {
   position: absolute;
   right: 250px;
-  top: 220px;
+  top: 180px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  top: 280px;
+  left: 150px;
+  top: 180px;
+}
+
+#mignone-top {
+  color: #11999e;
+  font-family: 'Indie Flower', cursive;
+  font-size: 8rem;
 }
 
 /* Bio Section */
-
-.bio-container {
+.bio {
+  align-self: auto;
   background-color: white;
-  padding: 7%;
-  }
-
-h3 {
-  font-family: 'Open Sans', sans-serif;
-  color: #11999e;
-  font-size: 1.75rem;
-  font-weight: 600;
+  border-radius: 20px;
+  margin-top: 20%;
+  padding: 20% 15%;
 }
 
-.skills-container {
-  background-color: #E4F6F8;
-  padding: 5% 0 2%;
-  }
+.top-text {
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: normal;
+  line-height: 1.5;
+  margin-top: 3rem;
+}
 
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
+.skills {
+  padding: 7% 0 5%;
+}
+
+.section-title {
+  color: #11999e;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2rem;
+  font-weight: 900;
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.skill-item {
+  color: gray;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2;
+  margin: auto;
+  padding: 10%;
   text-align: left;
 }
 
 .image-skill {
-  width: 15%;
-  float: left;
-  margin-right: 30px;
-}
-
-.image-skill2 {
-  width: 15%;
-  float: right;
-  margin-left: 30px;
+  margin: 10% 33%;
+  width: 25%;
 }
 
 /* Contact Section */
-
-.contact-container {
-  padding: 5% 0 10%;
+.contact {
+  background-color: #E4F6F8;
+  padding: 7% 0 7%;
 }
 
 .contact-title {
   margin: 0;
-  padding-bottom: 5%;
+  padding-bottom: 10%;
 }
 
-.btn {
+#my-button {
+  background-color: #11999e;
   border-radius: 20px;
   color: #E4F6F8;
-  font-family: Open Sans;
-  font-size: 20px;
-  font-weight: 200;
-  padding: 15px;
-  background-color: #11999e;
-  text-decoration: none;
-  display: inline-block;
   cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 5% 30%;
+  padding: 15px;
   text-align: center;
+  text-decoration: none;
 }
 
-a {
-  margin: 10px 20px;
-}
-
-a:hover {
-  color: #696B6F;
+#my-button:hover {
   background-color: white;
-  margin: 10px 20px;
+  color: gray;
 }
 
 /* Copyright Section */
-
 .bottom-container {
-
   background-color: #11999e;
   color: #E4F6F8;
-  padding: 2%;
-  /* padding-bottom: 10px; */
+  padding: 3%;
+  text-align: center;  
 }
