@@ -15,7 +15,7 @@ body {
 .top-cloud {
   position: absolute;
   right: 20%;
-  top: 140px;
+  top: 120px;
   transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 3s;
 }
 
@@ -29,13 +29,13 @@ body {
   position: absolute;
   right: 35%;
   top: 150px;
-  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 3s;
+  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) 4s;
 }
 
 .middle-cloud:hover {
   position: absolute;
   right: 35%;
-  top: 90px;
+  top: 60px;
 }
 
 .bottom-cloud {
@@ -48,7 +48,7 @@ body {
 .bottom-cloud:hover {
   position: absolute;
   left: 15%;
-  top: 110px;
+  top: 80px;
 }
 
 #mignone-top {
@@ -79,7 +79,7 @@ body {
 
 /* Skills Section */
 .skills {
-  padding: 7% 0 5%;
+  padding: 5% 0 5%;
 }
 
 .section-title {
@@ -87,7 +87,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
   font-weight: 900;
-  margin-bottom: 5%;
+  /* margin-bottom: 5%; */
   text-align: center;
 }
 
@@ -103,15 +103,25 @@ body {
 }
 
 .image-skill {
-  margin: 10% 33%;
-  width: 30%;
+  width: 60%;
   justify-content: left;
+  padding: 15%;
+}
+
+.highlight-gradient {
+  background-image: linear-gradient(to top, #11999e, #47babe);
+  display: inline-block;
+  padding: 0 4px;
+  font-family: monospace;
+  font-size: 1rem;
+  border-radius: 4px;
+  color: white;
 }
 
 /* Contact Section */
 .contact {
-  padding: 7% 0;
-  justify-content: center;
+  padding: 5% 0;
+  /* justify-content: center; */
 }
 
 .contact-title {
@@ -125,7 +135,7 @@ div.row {
 }
 
 #my-button {
-  background-color: #11999e;
+  background-image: linear-gradient(to top, #11999e, #47babe);
   border-radius: 20px;
   color: #E4F6F8;
   cursor: pointer;
@@ -142,6 +152,7 @@ div.row {
 }
 
 #my-button:hover {
+  background: transparent;
   background-color: white;
   color: gray;
 }
