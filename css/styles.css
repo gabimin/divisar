@@ -53,12 +53,13 @@ body {
     top: 80px;
 }
 
-#mignone-top {
+#divisar-top {
     color: #11999e;
     font-family: 'Indie Flower', cursive;
     font-size: 5rem;
-    font-weight: 600;
+    font-weight: bolder;
     text-align: center;
+    text-decoration: none;
 }
 
 
