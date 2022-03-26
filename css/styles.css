@@ -130,7 +130,6 @@ a {
 }
 
 .right-text {
-  text-shadow: 1px 1px 20px #817b7b;
   width: 80%;
   min-width: 16rem;
   text-align: center;
@@ -181,7 +180,6 @@ a {
 }
 
 .text-card p {
-  text-shadow: 1px 1px 40px #817b7b;
   width: 50%;
   min-width: 16rem;
   color: gray;
@@ -272,7 +270,7 @@ span {
 }
 
 .copyright {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #e4f6f8;
   padding: 2% 3% 4%;
   text-align: center;
