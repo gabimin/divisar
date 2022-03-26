@@ -66,45 +66,48 @@ a {
 }
 
 #top-cloud {
+  opacity: 0.5;
   width: 15%;
   position: absolute;
   right: 40%;
-  top: 130px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+  top: 170px;
+  transition: top 2s;
+  cursor: pointer;
 }
 
 #top-cloud:hover {
-  position: absolute;
-  right: 40%;
-  top: 100px;
+  top: 140px;
+  opacity: 0.9;
 }
 
 #middle-cloud {
-  opacity: 0.4;
-  width: 20%;
+  opacity: 0.5;
+  width: 12%;
   position: absolute;
   right: 55%;
-  top: 160px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+  top: 185px;
+  transition: top 2s;
+  cursor: pointer;
 }
 
 #middle-cloud:hover {
-  position: absolute;
-  right: 55%;
-  top: 95px;
+  top: 160px;
+  opacity: 0.5;
 }
 
 #bottom-cloud {
+  opacity: 0.5;
+  width: 20%;
   position: absolute;
-  left: 5%;
-  top: 130px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 2s;
+  right: 70%;
+  top: 180px;
+  transition: top 2s;
+  cursor: pointer;
 }
 
 #bottom-cloud:hover {
-  position: absolute;
-  left: 5%;
-  top: 80px;
+  top: 150px;
+  opacity: 0.9;
 }
 
 .header-right-container {
