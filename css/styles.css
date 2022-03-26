@@ -1,97 +1,151 @@
 body {
+  margin: auto;
+  padding: 0;
   background: linear-gradient(
     180deg,
-    rgba(228, 246, 248, 1) 25%,
-    rgba(255, 255, 255, 1) 75%,
-    rgba(17, 153, 158, 1) 100%
+    hsl(186, 59%, 93%) 25%,
+    #ffffff 75%,
+    #11999e 100%
   );
 }
 
-/* Top Section */
-
-.presentation {
-  padding: 5% 0;
+.header-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: flex-end;
+  justify-content: space-evenly;
+  margin: 2%;
   text-align: center;
 }
 
-.island-img {
-  padding-top: 40px;
+.header-left-container {
+  display: block;
+  width: 65%;
+  min-width: 18rem;
+  flex-grow: 2;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 20%;
-  top: 130px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+.title-container {
+  margin: auto;
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  max-width: 70%;
+  cursor: pointer;
 }
 
-.top-cloud:hover {
-  position: absolute;
-  right: 20%;
-  top: 100px;
-}
-
-.middle-cloud {
-  position: absolute;
-  right: 35%;
-  top: 150px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 4s;
-}
-
-.middle-cloud:hover {
-  position: absolute;
-  right: 35%;
-  top: 60px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 15%;
-  top: 130px;
-  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
-}
-
-.bottom-cloud:hover {
-  position: absolute;
-  left: 15%;
-  top: 80px;
-}
-
-#divisar-top {
+h1 {
+  text-shadow: 2px 2px 8px #817b7b;
   color: #11999e;
   font-family: "Indie Flower", cursive;
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: bolder;
-  text-align: center;
+  text-align: left;
+  text-decoration: none;
+  margin: 0;
+}
+
+a {
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
 
-/* Bio Section */
-
-.bio {
-  align-self: auto;
-  background-color: transparent;
-  border-radius: 20px;
-  margin: 10%;
-  padding: 5% 5%;
+#link-title:visited {
+  color: #11999e;
 }
 
-.top-text {
+.header-image img #island {
+  min-width: 85%;
+}
+
+#island {
+  opacity: 0.8;
+  width: 95%;
+}
+
+#top-cloud {
+  width: 15%;
+  position: absolute;
+  right: 40%;
+  top: 130px;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+}
+
+#top-cloud:hover {
+  position: absolute;
+  right: 40%;
+  top: 100px;
+}
+
+#middle-cloud {
+  opacity: 0.4;
+  width: 20%;
+  position: absolute;
+  right: 55%;
+  top: 160px;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 3s;
+}
+
+#middle-cloud:hover {
+  position: absolute;
+  right: 55%;
+  top: 95px;
+}
+
+#bottom-cloud {
+  position: absolute;
+  left: 5%;
+  top: 130px;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 2s;
+}
+
+#bottom-cloud:hover {
+  position: absolute;
+  left: 5%;
+  top: 80px;
+}
+
+.header-right-container {
+  padding-top: 4rem;
+  margin-top: 5rem;
+  flex-grow: 1;
+  padding: 2%;
+  width: 30%;
+  min-width: 18rem;
+}
+
+.right-upper {
+  background: radial-gradient(circle, pink, white, #e4f6f8);
+  background-color: white;
+  border-radius: 4rem;
+  margin: 0 12%;
+}
+
+.header-right-container img {
+  opacity: 0.7;
+  width: 40%;
+  padding-top: 2rem;
+}
+
+.right-text {
+  text-shadow: 1px 1px 20px #817b7b;
+  width: 80%;
+  min-width: 16rem;
+  text-align: center;
+  margin: auto;
+  padding: 2rem 0 5rem;
   color: gray;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
   line-height: 1.5;
-  margin-top: 3rem;
 }
 
-/* Skills Section */
-
-.skills {
-  padding: 7% 0;
-}
-
-.section-title {
+.title-main {
+  margin: auto;
+  max-width: 80%;
   color: #11999e;
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
@@ -100,22 +154,44 @@ body {
   text-align: center;
 }
 
-.skill-item {
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.card {
+  display: block;
+  padding: 1% 1% 2%;
+  margin: 0 auto;
+  width: 30%;
+  min-width: 18rem;
+}
+
+.card img {
+  opacity: 0.8;
+  width: 50%;
+}
+
+.img-card {
+  margin: 0 auto;
+  opacity: 0.7;
+  width: 55%;
+  text-align: center;
+}
+
+.text-card p {
+  text-shadow: 1px 1px 40px #817b7b;
+  width: 50%;
+  min-width: 16rem;
   color: gray;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: normal;
   line-height: 2;
-  margin: auto;
+  margin: 0 auto 0;
   padding: 10%;
   text-align: center;
-}
-
-.image-skill {
-  width: 50%;
-  /* justify-content: left; */
-  padding: 10%;
-  margin: 2.5%;
 }
 
 .highlight-gradient {
@@ -128,50 +204,76 @@ body {
   color: white;
 }
 
-/* Contact Section  */
-
 .contact {
-  padding: 5% 0;
-  justify-content: center;
+  color: #e4f6f8;
+  padding: 1% 1% 2%;
+  margin: 0 auto 2%;
+  width: 80%;
+  min-width: 18rem;
 }
 
 .contact-title {
-  margin-bottom: 10%;
-  padding-bottom: 10%;
+  text-align: center;
+  margin: auto;
+  max-width: 80%;
+  color: #11999e;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
 }
 
-div.row {
+.icons-container {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
   align-content: center;
   justify-content: center;
+  align-content: center;
+  padding: 2%;
 }
 
-#my-button {
+.social-icon {
+  width: 10%;
+  min-width: 8rem;
   background-image: linear-gradient(to top, #11999e, #47babe);
   border-radius: 20px;
-  color: #e4f6f8;
   cursor: pointer;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
-  margin: 5% 30%;
+  margin: 2%;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 1s;
   align-content: center;
+  text-align: center;
 }
 
-#my-button:hover {
+.social-icon:hover {
   background: transparent;
-  background-color: white;
-  color: gray;
+  background-color: #94cfca83;
+  color: #11999e;
 }
 
-/* Copyright Section */
+a {
+  color: #e4f6f8;
+}
 
-.bottom-container {
-  color: white;
-  padding: 3%;
+a:visited {
+  color: #e4f6f8;
+}
+
+span {
+  padding: 0.3rem;
+}
+
+.copyright {
+  font-size: 1.2rem;
+  color: #e4f6f8;
+  padding: 2% 3% 4%;
   text-align: center;
 }
