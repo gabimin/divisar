@@ -4,7 +4,7 @@ body {
   background: linear-gradient(
     180deg,
     hsl(186, 59%, 93%) 25%,
-    #ffffff 75%,
+    #ffffff 50%,
     #11999e 100%
   );
 }
@@ -37,7 +37,7 @@ body {
 
 h1 {
   text-shadow: 2px 2px 8px #817b7b;
-  color: #11999e;
+  color: #11999e !important;
   font-family: "Indie Flower", cursive;
   font-size: 6rem;
   font-weight: bolder;
@@ -45,13 +45,12 @@ h1 {
   text-decoration: none;
   margin: 0;
 }
-
-a {
+#link-title {
   padding: 0;
   margin: 0;
   text-decoration: none;
+  color: #11999e;
 }
-
 #link-title:visited {
   color: #11999e;
 }
@@ -235,6 +234,17 @@ a {
   padding: 2%;
 }
 
+.link-social {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #e4f6f8;
+}
+
+.link-social:hover {
+  color: #11999e;
+}
+
 .social-icon {
   width: 10%;
   min-width: 8rem;
@@ -256,16 +266,8 @@ a {
 
 .social-icon:hover {
   background: transparent;
-  background-color: #94cfca83;
+  background-color: #c8e0de;
   color: #11999e;
-}
-
-a {
-  color: #e4f6f8;
-}
-
-a:visited {
-  color: #e4f6f8;
 }
 
 span {
