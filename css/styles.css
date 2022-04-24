@@ -1,12 +1,7 @@
 body {
   margin: auto;
   padding: 0;
-  background: linear-gradient(
-    180deg,
-    hsl(186, 59%, 93%) 25%,
-    #ffffff 50%,
-    #11999e 100%
-  );
+  background: linear-gradient(180deg, #e3f6f8 25%, #ffffff 50%, #11999e 100%);
 }
 
 .header-container {
@@ -112,6 +107,7 @@ h1 {
 .header-right-container {
   padding-top: 4rem;
   margin-top: 5rem;
+  border-radius: 2rem;
   flex-grow: 1;
   padding: 2%;
   width: 30%;
@@ -119,10 +115,11 @@ h1 {
 }
 
 .right-upper {
-  background: radial-gradient(circle, pink, white, #e4f6f8);
-  background-color: white;
+  background: radial-gradient(circle, pink, #e3f6f8, #e3f6f8, #e3f6f8);
+  background-color: #e3f6f8;
   border-radius: 4rem;
-  margin: 0 12%;
+  margin: 0 auto;
+  max-width: 65%;
 }
 
 .header-right-container img {
@@ -139,9 +136,13 @@ h1 {
   padding: 2rem 0 5rem;
   color: gray;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.5;
+}
+
+figcaption {
+  font-size: 1rem;
 }
 
 .title-main {
@@ -275,8 +276,16 @@ span {
 }
 
 .copyright {
+  font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   color: #e4f6f8;
   padding: 2% 3% 4%;
   text-align: center;
+}
+
+.link-copy {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #e4f6f8;
 }
