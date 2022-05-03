@@ -1,7 +1,11 @@
 body {
   margin: auto;
   padding: 0;
-  background: linear-gradient(180deg, #e3f6f8 25%, #ffffff 50%, #11999e 100%);
+  /* background: linear-gradient(180deg, #e3f6f8 25%, #ffffff 50%, #11999e 100%); */
+  /* background: linear-gradient(180deg, #d3e4fe85 15%, #ffffff 66%, #89b7fc 100%); */
+
+  /* background: linear-gradient(180deg, #d3e4fe85 25%, #ffffff 50%, rgb(211, 86, 249)); */
+  background: linear-gradient(180deg, #d3e4fe 25%, #ffffff 50%,  #74aaf9);
 }
 
 /* top header */
@@ -9,7 +13,8 @@ body {
 .header-container {
   text-align: center;
   justify-content: center;
-  margin: auto;
+  margin: 2% auto 0;
+  
 }
 
 h1 {
@@ -17,8 +22,8 @@ h1 {
   padding: 0;
   margin: 0;
   text-shadow: 2px 2px 8px #817b7b;
-  color: #11999e !important;
-  font-family: "Indie Flower", cursive;
+  color: #6363c0;
+  font-family: "Permanent Marker", cursive;
   font-size: 6rem;
   font-weight: bold;
   text-decoration: none;
@@ -28,24 +33,24 @@ h1 {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color: #11999e;
+  color: #6363c0;
   cursor: pointer;
 }
 
 #link-title:visited {
-  color: #11999e;
+  color: #6363c0;
 }
 
 /* bottom header */
-
+/* 
 .header-image {
   align-items: center;
   align-content: center;
   margin: 0 auto 2%;
 }
-
+*/
 /* -- island -- */
-
+/*
 #island {
   max-width: 90%;
   min-width: 40%;
@@ -99,20 +104,55 @@ h1 {
   top: 150px;
   opacity: 0.9;
 }
+ */
 
 /* main */
 
+.title-main-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  padding: 0 4% 2%;
+  margin: 2% auto 6%;
+}
+
 .title-main {
-  padding: 2% 0 0;
-  margin: auto;
+  background-color: rgba(248, 228, 252, 0.235);
+  border-radius: 15px;
+  border: 1px solid #6363c0;
+  box-shadow: 2px 2px 8px #6363c0;
+  display: block;
+  margin: 3% auto;
   max-width: 80%;
-  color: #11999e;
+  min-width: 18rem;
+  width: 30%;
+  color: #6363c0;
+  text-shadow: 1px 1px 8px #a9a1a1;
   font-family: "Open Sans", sans-serif;
   font-size: 2rem;
-  font-weight: 900;
-  margin: 5% auto;
+  font-weight: bold;
   text-align: center;
+  padding: 0 3%;
 }
+
+.img-title-main {
+  align-content: flex-end;
+  display: block;
+  margin: 0 auto 2%;
+  width: 30%;
+  min-width: 16rem;
+}
+
+#title-main-img {
+  margin: auto;
+  display: block;
+  width: 60%;
+  align-content: center;
+  opacity: 0.8;
+}
+
+/* skills */
 
 .card-container {
   display: flex;
@@ -155,7 +195,8 @@ h1 {
 }
 
 .highlight-gradient {
-  background-image: linear-gradient(to top, #11999e, #47babe);
+  /* background-image: linear-gradient(to top, #11999e, #47babe); */
+  background-image: linear-gradient(to top, #6363c0, #9292fa);
   display: inline-block;
   padding: 0 4px;
   font-family: monospace;
@@ -172,13 +213,32 @@ h1 {
   margin: 0 auto 2%;
   width: 80%;
   min-width: 18rem;
+  align-content: center;
+}
+
+/* .contact-img-container {
+  display: block;
+  max-width: 80%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+} */
+
+#contact-img {
+  margin: auto;
+  display: block;
+  width: 25%;
+  align-content: center;
+  opacity: 0.8;
 }
 
 .contact-title {
   text-align: center;
   margin: auto;
   max-width: 80%;
-  color: #11999e;
+  color: #6363c0;
+  text-shadow: 2px 2px 8px #fdf1fd60;
   font-family: "Open Sans", sans-serif;
   font-size: 1.5rem;
   font-weight: 900;
@@ -200,7 +260,7 @@ h1 {
   padding: 0;
   margin: 2%;
   text-decoration: none;
-  color: hsla(185, 61%, 93%, 0.704);
+  color: #d5e9e8b9;
 }
 
 .link-social:hover {
@@ -210,7 +270,8 @@ h1 {
 div.social-icon {
   width: 10%;
   min-width: 8rem;
-  background-image: linear-gradient(to top, #11999e, #47babe);
+  /* background-image: linear-gradient(to top, #11999e, #47babe); */
+  background-image: linear-gradient(to top, #6363c0, #8989c3);
   border-radius: 20px;
   cursor: pointer;
   display: inline-block;
@@ -227,8 +288,8 @@ div.social-icon {
 
 div.social-icon:hover {
   background: transparent;
-  background-color: #c8e0deb9;
-  color: #11999e;
+  background-color: #cbdddcb9;
+  color: #6363c0;
 }
 
 /* footer */
@@ -249,7 +310,7 @@ span {
 .copyright {
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
-  color: #e4f6f8;
+  color: white;
   padding: 2%;
   text-align: center;
 }
@@ -258,5 +319,5 @@ span {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color: hsla(185, 61%, 93%, 0.65);
+  color: white;
 }
