@@ -4,36 +4,24 @@ body {
   background: linear-gradient(180deg, #e3f6f8 25%, #ffffff 50%, #11999e 100%);
 }
 
-.header-container {
-  display: flex;
-  flex-flow: row wrap;
-  align-items: center;
-  align-content: flex-end;
-  justify-content: space-evenly;
-  margin: 2%;
-  text-align: center;
-  padding: 3%;
-}
-
 /* top header */
 
-div.top-header-container {
-  display: block;
-  flex-flow: row wrap;
+.header-container {
   text-align: center;
+  justify-content: center;
   margin: auto;
-  max-width: 16rem;
 }
 
 h1 {
+  text-align: center;
+  padding: 0;
+  margin: 0;
   text-shadow: 2px 2px 8px #817b7b;
   color: #11999e !important;
   font-family: "Indie Flower", cursive;
   font-size: 6rem;
-  font-weight: bolder;
+  font-weight: bold;
   text-decoration: none;
-  margin: auto;
-  cursor: pointer;
 }
 
 #link-title {
@@ -41,6 +29,7 @@ h1 {
   margin: 0;
   text-decoration: none;
   color: #11999e;
+  cursor: pointer;
 }
 
 #link-title:visited {
@@ -49,28 +38,28 @@ h1 {
 
 /* bottom header */
 
-div.bottom-header-container {
-  display: block;
-  flex-flow: row wrap;
+.header-image {
   align-items: center;
-  align-content: flex-end;
-  justify-content: space-evenly;
-  margin: 2%;
-  /* width: 40%; */
+  align-content: center;
+  margin: 0 auto 2%;
 }
 
 /* -- island -- */
 
 #island {
+  max-width: 90%;
+  min-width: 40%;
+  display: block;
+  margin: auto;
   opacity: 0.8;
-  width: 100%;
-}
+  align-items: center;
+  }
 
 #top-cloud {
   opacity: 0.5;
   width: 15%;
   position: absolute;
-  right: 40%;
+  right: 35%;
   top: 170px;
   transition: top 2s;
   cursor: pointer;
@@ -85,7 +74,7 @@ div.bottom-header-container {
   opacity: 0.5;
   width: 12%;
   position: absolute;
-  right: 55%;
+  right: 45%;
   top: 185px;
   transition: top 2s;
   cursor: pointer;
@@ -98,9 +87,9 @@ div.bottom-header-container {
 
 #bottom-cloud {
   opacity: 0.5;
-  width: 20%;
+  width: 16%;
   position: absolute;
-  right: 70%;
+  right: 55%;
   top: 180px;
   transition: top 2s;
   cursor: pointer;
@@ -114,6 +103,7 @@ div.bottom-header-container {
 /* main */
 
 .title-main {
+  padding: 2% 0 0;
   margin: auto;
   max-width: 80%;
   color: #11999e;
@@ -133,7 +123,7 @@ div.bottom-header-container {
 .card {
   display: block;
   padding: 1% 1% 2%;
-  margin: 0 auto;
+  margin: 2% auto;
   width: 30%;
   min-width: 18rem;
 }
@@ -153,7 +143,7 @@ div.bottom-header-container {
 .text-card p {
   width: 50%;
   min-width: 16rem;
-  color: gray;
+  color: rgb(99, 99, 99);
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -207,9 +197,9 @@ div.bottom-header-container {
 
 .link-social {
   padding: 0;
-  margin: 0;
+  margin: 2%;
   text-decoration: none;
-  color: #e4f6f8;
+  color: hsla(185, 61%, 93%, 0.704);
 }
 
 .link-social:hover {
@@ -226,7 +216,6 @@ div.social-icon {
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
-  margin: 2%;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -237,7 +226,7 @@ div.social-icon {
 
 div.social-icon:hover {
   background: transparent;
-  background-color: #c8e0de;
+  background-color: #c8e0deb9;
   color: #11999e;
 }
 
@@ -260,7 +249,7 @@ span {
   font-family: "Open Sans", sans-serif;
   font-size: 0.8rem;
   color: #e4f6f8;
-  padding: 2% 3% 4%;
+  padding: 2%;
   text-align: center;
 }
 
@@ -268,5 +257,5 @@ span {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color: #e4f6f8;
+  color: hsla(185, 61%, 93%, 0.65);
 }
