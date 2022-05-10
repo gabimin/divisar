@@ -20,7 +20,6 @@ div.header-container {
 div.header-title-container {
   background-image: linear-gradient(to top,#c2b6fc,#edebf9 );
   border-radius: 15px; 
-  /* box-shadow: 2px 2px 8px #707070; */
   padding: 1%;
   margin: 3% auto;
   max-width: 80%;
