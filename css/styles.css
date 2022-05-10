@@ -112,7 +112,7 @@ div.title-main {
 .text-card p {
   width: 50%;
   min-width: 16rem;
-  color: #636363;
+  color: #3e3e3e;
   font-family: "Open Sans", sans-serif;
   font-size: 1rem;
   font-weight: normal;
@@ -197,7 +197,7 @@ div.social-icon:hover {
 /* footer */
 
 footer {
-  background: linear-gradient(to bottom,#017da0,#00576f);
+  background: linear-gradient(to bottom, #017da0, #00576f);
   padding: 3%;
 }
 
