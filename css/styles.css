@@ -6,7 +6,8 @@ body {
 /* header */
 
 .header-back-img {
-  background-image: url("/images/back1.jpg");
+  /* background-image: url("/images/back1.jpg"); */
+  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-position: 15%;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -179,7 +180,7 @@ div.social-icon {
   display: inline-block;
   font-family: "Open Sans", sans-serif;
   font-size: 1.1rem;
-  font-weight: 600;
+  font-weight: 500;
   padding: 15px;
   text-align: center;
   text-decoration: none;
@@ -196,7 +197,7 @@ div.social-icon:hover {
 /* footer */
 
 footer {
-  background-color: #017da0;
+  background: linear-gradient(to bottom,#017da0,#00576f);
   padding: 3%;
 }
 
