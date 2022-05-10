@@ -6,13 +6,11 @@ body {
 /* header */
 
 .header-back-img {
-  /* background-image: url("/images/back1.jpg"); */
-  background-image: url("https://images.pexels.com/photos/2653362/pexels-photo-2653362.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-  background-position: 15%;
+  background-image: url("/images/binary.jpg");
+  background-position: 35%;
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;
-  opacity: 0.9;
   color: white;
   font-family: "Goldman", cursive;
   font-size: 2rem;
@@ -92,7 +90,7 @@ div.title-main {
 
 .card {
   display: block;
-  padding: 1% 1% 2%;
+  padding: 1%;
   margin: 2% auto;
   width: 30%;
   min-width: 18rem;
@@ -104,7 +102,6 @@ div.title-main {
 
 .img-card {
   margin: 0 auto;
-  opacity: 0.9;
   width: 35%;
   text-align: center;
 }
@@ -145,21 +142,21 @@ div.title-main {
 
 .contact-title {
   text-align: center;
-  margin: auto;
+  margin: 0 auto;
   max-width: 80%;
   font-family: "Goldman", cursive;
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .icons-container {
-  margin: auto;
-  width: 80%;
+  margin: 0 auto 3%;
+  width: 90%;
   display: flex;
   flex-flow: row wrap;
   text-align: center;
   justify-content: center;
-  padding: 2%;
+  padding: 2% 0 3%;
 }
 
 .link-social {
@@ -179,7 +176,7 @@ div.social-icon {
   cursor: pointer;
   display: inline-block;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 500;
   padding: 15px;
   text-align: center;
@@ -199,6 +196,7 @@ div.social-icon:hover {
 footer {
   background: linear-gradient(to bottom, #017da0, #00576f);
   padding: 3%;
+  margin-top: 2%;
 }
 
 span {
@@ -209,7 +207,7 @@ span {
   font-family: "Goldman", cursive;
   font-size: 1rem;
   color: whitesmoke;
-  padding: 2%;
+  padding: 2.5%;
   text-align: center;
 }
 
