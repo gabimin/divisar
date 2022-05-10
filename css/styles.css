@@ -18,10 +18,9 @@ div.header-container {
 }
 
 div.header-title-container {
-  background-image: linear-gradient(to top, #b5a4ff, #cfc6fe);
-  border-radius: 15px;
-  border: 1px solid #6363c0;
-  box-shadow: 2px 2px 8px #6363c0;
+  background-image: linear-gradient(to top,#c2b6fc,#edebf9 );
+  border-radius: 15px; 
+  /* box-shadow: 2px 2px 8px #707070; */
   padding: 1%;
   margin: 3% auto;
   max-width: 80%;
@@ -29,7 +28,7 @@ div.header-title-container {
   width: 30%;
   text-align: center;
   text-shadow: 2px 2px 8px #707070;
-  color: #4545c4;
+  color: #6363cc;
   font-family: "Goldman", cursive;
   font-size: 2rem;
   font-weight: 700;
@@ -46,12 +45,12 @@ h1 {
   padding: 0;
   margin: 0 auto;
   text-decoration: none;
-  color: #6363c0;
+  color: #6363cc;
   cursor: pointer;
 }
 
 #link-title:visited {
-  color: #6363c0;
+  color: #6363cc;
 }
 
 .img-header {
@@ -77,8 +76,8 @@ h1 {
   margin: 6% auto;
   max-width: 80%;
   min-width: 10rem;
-  color: #6363c0;
-  text-shadow: 1px 1px 8px #a9a1a1;
+  color: #6363cc;
+  text-shadow: 1px 1px 8px #959494;
   font-family: "Goldman", cursive;
   font-size: 2rem;
   font-weight: 700;
@@ -102,7 +101,7 @@ h1 {
 }
 
 .card img {
-  opacity: 0.9;
+  opacity: 0.85;
   width: 50%;
 }
 
@@ -127,7 +126,8 @@ h1 {
 }
 
 .highlight-gradient {
-  background-image: linear-gradient(to top, #6363c0, #9292fa);
+  /*  background-image: linear-gradient(to top, #6363c0, #9292fa); */
+  background-image: linear-gradient(to top, #6363cc, #7e7ece);
   display: inline-block;
   padding: 0 4px;
   font-family: monospace;
@@ -160,9 +160,8 @@ h1 {
   text-align: center;
   margin: auto;
   max-width: 80%;
-  color: #6363c0;
-  text-shadow: 2px 2px 8px #fdf1fd60;
-  /*  font-family: "Open Sans", sans-serif; */
+  color: #6363cc;
+ text-shadow: 1px 1px 8px #959494;
   font-family: "Goldman", cursive;
   font-size: 2rem;
   font-weight: 400;
@@ -194,7 +193,8 @@ h1 {
 div.social-icon {
   width: 10%;
   min-width: 8rem;
-  background-image: linear-gradient(to top, #6363c0, #8989c3);
+  /* background-image: linear-gradient(to top, #6363c0, #8989c3); */
+  background-image: linear-gradient(to top, #6363cc, #7e7ece);
   border-radius: 20px;
   cursor: pointer;
   display: inline-block;
@@ -218,8 +218,9 @@ div.social-icon:hover {
 /* footer */
 
 footer {
-  background-color: #6363c0;
-  padding: 5%;
+  /*  background-color: #6363c0; */
+  background-color: #6363cc;
+  padding: 3%;
 }
 
 span {
