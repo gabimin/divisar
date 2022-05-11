@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #ece9e48a;
 }
 
 /* header */
@@ -11,7 +12,7 @@ body {
   background-repeat: no-repeat;
   overflow: hidden;
   background-size: cover;
-  color: white;
+  color: #efebe6;
   font-family: "Goldman", cursive;
   font-size: 2rem;
   font-weight: 700;
@@ -49,7 +50,7 @@ h1 {
 }
 
 #link-title:visited {
-  color: white;
+  color: #efebe6;
 }
 
 .img-header {
@@ -66,7 +67,7 @@ h1 {
   width: 9%;
   align-content: center;
   min-width: 3rem;
-  background-color: whitesmoke;
+  background-color: #efebe6;
   border-radius: 50%;
 }
 
@@ -74,7 +75,7 @@ div.title-main {
   margin: 6% auto;
   max-width: 80%;
   min-width: 10rem;
-  color: white;
+  color: #efebe6;
   padding: 0;
 }
 
@@ -167,7 +168,7 @@ div.title-main {
 }
 
 .link-social:hover {
-  color: whitesmoke;
+  color: #efebe6;
 }
 
 div.social-icon {
@@ -188,7 +189,7 @@ div.social-icon {
 
 div.social-icon:hover {
   background-image: linear-gradient(to top, #017da0, #2eb3d8);
-  color: whitesmoke;
+  color: #efebe6;
 }
 
 /* footer */
@@ -206,7 +207,7 @@ span {
 .copyright {
   font-family: "Goldman", cursive;
   font-size: 1rem;
-  color: whitesmoke;
+  color: #efebe6;
   padding: 2.5%;
   text-align: center;
 }
@@ -215,5 +216,5 @@ span {
   padding: 0;
   margin: 0;
   text-decoration: none;
-  color: whitesmoke;
+  color: #efebe6;
 }
