@@ -1,1 +1,1 @@
-# Static Personal Page
+# Static Page
